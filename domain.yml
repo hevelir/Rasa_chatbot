@@ -91,7 +91,7 @@ intents:
   - smalltalk_user_wants_to_see_agent_again
   - smalltalk_user_wants_to_talk
   - smalltalk_user_will_be_back
-  - smalltalk_about_sports
+  - smalltalk_about_sports 
 
 entities:
   - alcohol
