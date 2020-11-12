@@ -97,10 +97,6 @@ entities:
   - alcohol
   - sport
 
-slots:
-  alcohol:
-    type: text
-
 actions:
   - action_football_player
 
