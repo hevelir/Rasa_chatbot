@@ -1,10 +1,6 @@
 ## thank + welcome
 * thank
     - utter_you_are_welcome
-    
-## sports
-* smalltalk_about_sports
-    - action_football_player
 
 ## greet + impolite
 * greet

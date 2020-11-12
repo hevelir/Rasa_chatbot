@@ -97,8 +97,8 @@ entities:
   - alcohol
   - sport
 
-actions:
-  - action_football_player
+##actions:
+##  - action_football_player
 
 responses:
   utter_greet:
