@@ -39,7 +39,6 @@ class MySpellCorrecter(Component):
         super(MySpellCorrecter, self).__init__(component_config)
 
     def train(self, training_data, cfg, **kwargs):
-        """Not needed, because the the model is pretrained"""
         pass
 
     def process(self, message, **kwargs):
@@ -60,7 +59,6 @@ class MySpellCorrecter(Component):
         print("The corrected sentence -> ", untokenize(new_words))
 
     def persist(self, file_name, model_dir):
-        """Pass because a pre-trained model is already persisted"""
 
         pass
 

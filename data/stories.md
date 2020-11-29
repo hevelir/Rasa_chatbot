@@ -3,7 +3,7 @@
     - utter_you_are_welcome
     
 ## sports
-* smalltalk_about_sports
+* about_sports
     - action_football_player
 
 ## greet + impolite
@@ -14,7 +14,7 @@
     
 ## ask_forecast_weather 
 * ask_forecast_weather
-    - utter_forecast_weather
+    - action_current_weather
     
 ## scared mood 
 * greet
@@ -75,310 +75,309 @@
 * bot_challenge
   - utter_iamabot
   
-## path_smalltalk_agent_acquaintance
-* smalltalk_agent_acquaintance
-  - utter_smalltalk_agent_acquaintance
-
-## path_smalltalk_agent_age
-* smalltalk_agent_age
-  - utter_smalltalk_agent_age
-
-## path_smalltalk_agent_annoying
-* smalltalk_agent_annoying
-  - utter_smalltalk_agent_annoying
-
-## path_smalltalk_agent_answer_my_question
-* smalltalk_agent_answer_my_question
-  - utter_smalltalk_agent_answer_my_question
-
-## path_smalltalk_agent_bad
-* smalltalk_agent_bad
-  - utter_smalltalk_agent_bad
-
-## path_smalltalk_agent_be_clever
-* smalltalk_agent_be_clever
-  - utter_smalltalk_agent_be_clever
-
-## path_smalltalk_agent_beautiful
-* smalltalk_agent_beautiful
-  - utter_smalltalk_agent_beautiful
-
-## path_smalltalk_agent_birth_date
-* smalltalk_agent_birth_date
-  - utter_smalltalk_agent_birth_date
-
-## path_smalltalk_agent_boring
-* smalltalk_agent_boring
-  - utter_smalltalk_agent_boring
-
-## path_smalltalk_agent_boss
-* smalltalk_agent_boss
-  - utter_smalltalk_agent_boss
-
-## path_smalltalk_agent_busy
-* smalltalk_agent_busy
-  - utter_smalltalk_agent_busy
-
-
-## path_smalltalk_agent_clever
-* smalltalk_agent_clever
-  - utter_smalltalk_agent_clever
-
-## path_smalltalk_agent_crazy
-* smalltalk_agent_crazy
-  - utter_smalltalk_agent_crazy
-
-## path_smalltalk_agent_fired
-* smalltalk_agent_fired
-  - utter_smalltalk_agent_fired
-
-## path_smalltalk_agent_funny
-* smalltalk_agent_funny
-  - utter_smalltalk_agent_funny
-
-## path_smalltalk_agent_good
-* smalltalk_agent_good
-  - utter_smalltalk_agent_good
-
-## path_smalltalk_agent_happy
-* smalltalk_agent_happy
-  - utter_smalltalk_agent_happy
-
-## path_smalltalk_agent_hungry
-* smalltalk_agent_hungry
-  - utter_smalltalk_agent_hungry
-
-## path_smalltalk_agent_marry_user
-* smalltalk_agent_marry_user
-  - utter_smalltalk_agent_marry_user
-
-## path_smalltalk_agent_my_friend
-* smalltalk_agent_my_friend
-  - utter_smalltalk_agent_my_friend
-
-## path_smalltalk_agent_occupation
-* smalltalk_agent_occupation
-  - utter_smalltalk_agent_occupation
-
-## path_smalltalk_agent_origin
-* smalltalk_agent_origin
-  - utter_smalltalk_agent_origin
-
-## path_smalltalk_agent_ready
-* smalltalk_agent_ready
-  - utter_smalltalk_agent_ready
-
-## path_smalltalk_agent_real
-* smalltalk_agent_real
-  - utter_smalltalk_agent_real
-
-## path_smalltalk_agent_residence
-* smalltalk_agent_residence
-  - utter_smalltalk_agent_residence
-
-## path_smalltalk_agent_right
-* smalltalk_agent_right
-  - utter_smalltalk_agent_right
-
-## path_smalltalk_agent_sure
-* smalltalk_agent_sure
-  - utter_smalltalk_agent_sure
-
-## path_smalltalk_agent_talk_to_me
-* smalltalk_agent_talk_to_me
-  - utter_smalltalk_agent_talk_to_me
-
-## path_smalltalk_agent_there
-* smalltalk_agent_there
-  - utter_smalltalk_agent_there
-
-## path_smalltalk_appraisal_bad
-* smalltalk_appraisal_bad
-  - utter_smalltalk_appraisal_bad
-
-## path_smalltalk_appraisal_good
-* smalltalk_appraisal_good
-  - utter_smalltalk_appraisal_good
-
-## path_smalltalk_appraisal_no_problem
-* smalltalk_appraisal_no_problem
-  - utter_smalltalk_appraisal_no_problem
-
-## path_smalltalk_appraisal_thank_you
-* smalltalk_appraisal_thank_you
-  - utter_smalltalk_appraisal_thank_you
-
-## path_smalltalk_appraisal_welcome
-* smalltalk_appraisal_welcome
-  - utter_smalltalk_appraisal_welcome
-
-## path_smalltalk_appraisal_well_done
-* smalltalk_appraisal_well_done
-  - utter_smalltalk_appraisal_well_done
-
-## path_smalltalk_confirmation_cancel
-* smalltalk_confirmation_cancel
-  - utter_smalltalk_confirmation_cancel
-
-## path_smalltalk_dialog_hold_on
-* smalltalk_dialog_hold_on
-  - utter_smalltalk_dialog_hold_on
-
-## path_smalltalk_dialog_hug
-* smalltalk_dialog_hug
-  - utter_smalltalk_dialog_hug
-
-## path_smalltalk_dialog_i_do_not_care
-* smalltalk_dialog_i_do_not_care
-  - utter_smalltalk_dialog_i_do_not_care
-
-## path_smalltalk_dialog_sorry
-* smalltalk_dialog_sorry
-  - utter_smalltalk_dialog_sorry
-
-## path_smalltalk_dialog_what_do_you_mean
-* smalltalk_dialog_what_do_you_mean
-  - utter_smalltalk_dialog_what_do_you_mean
-
-## path_smalltalk_dialog_wrong
-* smalltalk_dialog_wrong
-  - utter_smalltalk_dialog_wrong
-
-## path_smalltalk_emotions_ha_ha
-* smalltalk_emotions_ha_ha
-  - utter_smalltalk_emotions_ha_ha
-
-## path_smalltalk_emotions_wow
-* smalltalk_emotions_wow
-  - utter_smalltalk_emotions_wow
-
-## path_smalltalk_greetings_bye
-* smalltalk_greetings_bye
-  - utter_smalltalk_greetings_bye
-
-## path_smalltalk_greetings_goodevening
-* smalltalk_greetings_goodevening
-  - utter_smalltalk_greetings_goodevening
-
-## path_smalltalk_greetings_goodmorning
-* smalltalk_greetings_goodmorning
-  - utter_smalltalk_greetings_goodmorning
-
-## path_smalltalk_greetings_goodnight
-* smalltalk_greetings_goodnight
-  - utter_smalltalk_greetings_goodnight
-
-## path_smalltalk_greetings_nice_to_meet_you
-* smalltalk_greetings_nice_to_meet_you
-  - utter_smalltalk_greetings_nice_to_meet_you
-
-## path_smalltalk_greetings_nice_to_see_you
-* smalltalk_greetings_nice_to_see_you
-  - utter_smalltalk_greetings_nice_to_see_you
-
-## path_smalltalk_greetings_nice_to_talk_to_you
-* smalltalk_greetings_nice_to_talk_to_you
-  - utter_smalltalk_greetings_nice_to_talk_to_you
-
-## path_smalltalk_greetings_whatsup
-* smalltalk_greetings_whatsup
-  - utter_smalltalk_greetings_whatsup
-
-## path_smalltalk_user_back
-* smalltalk_user_back
-  - utter_smalltalk_user_back
-
-## path_smalltalk_user_bored
-* smalltalk_user_bored
-  - utter_smalltalk_user_bored
-
-## path_smalltalk_user_busy
-* smalltalk_user_busy
-  - utter_smalltalk_user_busy
-
-## path_smalltalk_user_can_not_sleep
-* smalltalk_user_can_not_sleep
-  - utter_smalltalk_user_can_not_sleep
-
-## path_smalltalk_user_does_not_want_to_talk
-* smalltalk_user_does_not_want_to_talk
-  - utter_smalltalk_user_does_not_want_to_talk
-
-## path_smalltalk_user_excited
-* smalltalk_user_excited
-  - utter_smalltalk_user_excited
-
-## path_smalltalk_user_going_to_bed
-* smalltalk_user_going_to_bed
-  - utter_smalltalk_user_going_to_bed
-
-## path_smalltalk_user_good
-* smalltalk_user_good
-  - utter_smalltalk_user_good
-
-## path_smalltalk_user_has_birthday
-* smalltalk_user_has_birthday
-  - utter_smalltalk_user_has_birthday
-
-## path_smalltalk_user_here
-* smalltalk_user_here
-  - utter_smalltalk_user_here
-
-## path_smalltalk_user_joking
-* smalltalk_user_joking
-  - utter_smalltalk_user_joking
-
-## path_smalltalk_user_likes_agent
-* smalltalk_user_likes_agent
-  - utter_smalltalk_user_likes_agent
-
-## path_smalltalk_user_lonely
-* smalltalk_user_lonely
-  - utter_smalltalk_user_lonely
-
-## path_smalltalk_user_looks_like
-* smalltalk_user_looks_like
-  - utter_smalltalk_user_looks_like
-
-## path_smalltalk_user_loves_agent
-* smalltalk_user_loves_agent
-  - utter_smalltalk_user_loves_agent
-
-## path_smalltalk_user_misses_agent
-* smalltalk_user_misses_agent
-  - utter_smalltalk_user_misses_agent
-
-## path_smalltalk_user_needs_advice
-* smalltalk_user_needs_advice
-  - utter_smalltalk_user_needs_advice
-
-## path_smalltalk_user_sleepy
-* smalltalk_user_sleepy
-  - utter_smalltalk_user_sleepy
-
-## path_smalltalk_user_testing_agent
-* smalltalk_user_testing_agent
-  - utter_smalltalk_user_testing_agent
-
-## path_smalltalk_user_tired
-* smalltalk_user_tired
-  - utter_smalltalk_user_tired
-
-## path_smalltalk_user_waits
-* smalltalk_user_waits
-  - utter_smalltalk_user_waits
-
-## path_smalltalk_user_wants_to_see_agent_again
-* smalltalk_user_wants_to_see_agent_again
-  - utter_smalltalk_user_wants_to_see_agent_again
-
-## path_smalltalk_user_wants_to_talk
-* smalltalk_user_wants_to_talk
-  - utter_smalltalk_user_wants_to_talk
-
-## path_smalltalk_user_will_be_back
-* smalltalk_user_will_be_back
-  - utter_smalltalk_user_will_be_back
+## path_agent_acquaintance
+* agent_acquaintance
+  - utter_agent_acquaintance
+
+## path_agent_age
+* agent_age
+  - utter_agent_age
+
+## path_agent_annoying
+* agent_annoying
+  - utter_agent_annoying
+
+## path_agent_answer_my_question
+* agent_answer_my_question
+  - utter_agent_answer_my_question
+
+## path_agent_bad
+* agent_bad
+  - utter_agent_bad
+
+## path_agent_be_clever
+* agent_be_clever
+  - utter_agent_be_clever
+
+## path_agent_beautiful
+* agent_beautiful
+  - utter_agent_beautiful
+
+## path_agent_birth_date
+* agent_birth_date
+  - utter_agent_birth_date
+
+## path_agent_boring
+* agent_boring
+  - utter_agent_boring
+
+## path_agent_boss
+* agent_boss
+  - utter_agent_boss
+
+## path_agent_busy
+* agent_busy
+  - utter_agent_busy
+
+## path_agent_clever
+* agent_clever
+  - utter_agent_clever
+
+## path_agent_crazy
+* agent_crazy
+  - utter_agent_crazy
+
+## path_agent_fired
+* agent_fired
+  - utter_agent_fired
+
+## path_agent_funny
+* agent_funny
+  - utter_agent_funny
+
+## path_agent_good
+* agent_good
+  - utter_agent_good
+
+## path_agent_happy
+* agent_happy
+  - utter_agent_happy
+
+## path_agent_hungry
+* agent_hungry
+  - utter_agent_hungry
+
+## path_agent_marry_user
+* agent_marry_user
+  - utter_agent_marry_user
+
+## path_agent_my_friend
+* agent_my_friend
+  - utter_agent_my_friend
+
+## path_agent_occupation
+* agent_occupation
+  - utter_agent_occupation
+
+## path_agent_origin
+* agent_origin
+  - utter_agent_origin
+
+## path_agent_ready
+* agent_ready
+  - utter_agent_ready
+
+## path_agent_real
+* agent_real
+  - utter_agent_real
+
+## path_agent_residence
+* agent_residence
+  - utter_agent_residence
+
+## path_agent_right
+* agent_right
+  - utter_agent_right
+
+## path_agent_sure
+* agent_sure
+  - utter_agent_sure
+
+## path_agent_talk_to_me
+* agent_talk_to_me
+  - utter_agent_talk_to_me
+
+## path_agent_there
+* agent_there
+  - utter_agent_there
+
+## path_appraisal_bad
+* appraisal_bad
+  - utter_appraisal_bad
+
+## path_appraisal_good
+* appraisal_good
+  - utter_appraisal_good
+
+## path_appraisal_no_problem
+* appraisal_no_problem
+  - utter_appraisal_no_problem
+
+## path_appraisal_thank_you
+* appraisal_thank_you
+  - utter_appraisal_thank_you
+
+## path_appraisal_welcome
+* appraisal_welcome
+  - utter_appraisal_welcome
+
+## path_appraisal_well_done
+* appraisal_well_done
+  - utter_appraisal_well_done
+
+## path_confirmation_cancel
+* confirmation_cancel
+  - utter_confirmation_cancel
+
+## path_dialog_hold_on
+* dialog_hold_on
+  - utter_dialog_hold_on
+
+## path_dialog_hug
+* dialog_hug
+  - utter_dialog_hug
+
+## path_dialog_i_do_not_care
+* dialog_i_do_not_care
+  - utter_dialog_i_do_not_care
+
+## path_dialog_sorry
+* dialog_sorry
+  - utter_dialog_sorry
+
+## path_dialog_what_do_you_mean
+* dialog_what_do_you_mean
+  - utter_dialog_what_do_you_mean
+
+## path_dialog_wrong
+* dialog_wrong
+  - utter_dialog_wrong
+
+## path_emotions_ha_ha
+* emotions_ha_ha
+  - utter_emotions_ha_ha
+
+## path_emotions_wow
+* emotions_wow
+  - utter_emotions_wow
+
+## path_greetings_bye
+* greetings_bye
+  - utter_greetings_bye
+
+## path_greetings_goodevening
+* greetings_goodevening
+  - utter_greetings_goodevening
+
+## path_greetings_goodmorning
+* greetings_goodmorning
+  - utter_greetings_goodmorning
+
+## path_greetings_goodnight
+* greetings_goodnight
+  - utter_greetings_goodnight
+
+## path_greetings_nice_to_meet_you
+* greetings_nice_to_meet_you
+  - utter_greetings_nice_to_meet_you
+
+## path_greetings_nice_to_see_you
+* greetings_nice_to_see_you
+  - utter_greetings_nice_to_see_you
+
+## path_greetings_nice_to_talk_to_you
+* greetings_nice_to_talk_to_you
+  - utter_greetings_nice_to_talk_to_you
+
+## path_greetings_whatsup
+* greetings_whatsup
+  - utter_greetings_whatsup
+
+## path_user_back
+* user_back
+  - utter_user_back
+
+## path_user_bored
+* user_bored
+  - utter_user_bored
+
+## path_user_busy
+* user_busy
+  - utter_user_busy
+
+## path_user_can_not_sleep
+* user_can_not_sleep
+  - utter_user_can_not_sleep
+
+## path_user_does_not_want_to_talk
+* user_does_not_want_to_talk
+  - utter_user_does_not_want_to_talk
+
+## path_user_excited
+* user_excited
+  - utter_user_excited
+
+## path_user_going_to_bed
+* user_going_to_bed
+  - utter_user_going_to_bed
+
+## path_user_good
+* user_good
+  - utter_user_good
+
+## path_user_has_birthday
+* user_has_birthday
+  - utter_user_has_birthday
+
+## path_user_here
+* user_here
+  - utter_user_here
+
+## path_user_joking
+* user_joking
+  - utter_user_joking
+
+## path_user_likes_agent
+* user_likes_agent
+  - utter_user_likes_agent
+
+## path_user_lonely
+* user_lonely
+  - utter_user_lonely
+
+## path_user_looks_like
+* user_looks_like
+  - utter_user_looks_like
+
+## path_user_loves_agent
+* user_loves_agent
+  - utter_user_loves_agent
+
+## path_user_misses_agent
+* user_misses_agent
+  - utter_user_misses_agent
+
+## path_user_needs_advice
+* user_needs_advice
+  - utter_user_needs_advice
+
+## path_user_sleepy
+* user_sleepy
+  - utter_user_sleepy
+
+## path_user_testing_agent
+* user_testing_agent
+  - utter_user_testing_agent
+
+## path_user_tired
+* user_tired
+  - utter_user_tired
+
+## path_user_waits
+* user_waits
+  - utter_user_waits
+
+## path_user_wants_to_see_agent_again
+* user_wants_to_see_agent_again
+  - utter_user_wants_to_see_agent_again
+
+## path_user_wants_to_talk
+* user_wants_to_talk
+  - utter_user_wants_to_talk
+
+## path_user_will_be_back
+* user_will_be_back
+  - utter_user_will_be_back
 
 ## greet + ask for alcohol
 * greet

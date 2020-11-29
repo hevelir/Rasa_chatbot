@@ -49,51 +49,6 @@
 - cya
 - ciao
 
-## intent:impolite
-- fuck
-- fucking
-- fuck you
-- dick
-- dickhead
-- retard
-- suck my
-- idiot
-- dumb
-- dumbass
-
-## intent:ask_for_alcohol
-- Can i drink [alcohol](alcohol)
-- Can i have a [gin](alcohol)
-- Can i have a [tequila](alcohol)
-- Can i have a [beer](alcohol)
-- Can i have a [whisky](alcohol)
-- Can i have a [vodka](alcohol)
-- Can i have a [Jack Daniels](alcohol)
-- Can i have a [Jim Beam](alcohol)
-- Can i have a [gin tonic](alcohol)
-- Can i have a [wine](alcohol)
-- Give me [alcohol](alcohol)
-- Give me [gin](alcohol)
-- Give me [tequila](alcohol)
-- Give me [beer](alcohol)
-- Give me [whisky](alcohol)
-- Give me [vodka](alcohol)
-- Give me [Jack Daniels](alcohol) 
-- Give me [Jim Beam](alcohol)
-- Give me [gin tonic](alcohol)
-- Give me [wine](alcohol)
-
-## lookup: alcohol
-- gin
-- tequila
-- beer
-- whisky
-- vodka
-- Jack Daniels
-- Jim Beam
-- gin tonic
-- wine
-
 ## intent:affirm
 - that's correct
 - it's fine
@@ -447,12 +402,9 @@
 - Awful weather, isn’t it?
 - Do you know the weather forecast for today?
 - Do I need to carry an umbrella today?
-- Do I need to carry an umbrella tomorrow?
 - How is the weather today?
 - How cold is it going to get today?
-- How cold is it going to be tomorrow?
 - How hot is it going to get today?
-- How hot is it going to be tomorrow?
 - How humid is it going to get today?
 - How humid is it going to be tomorrow?
 - How rainy is it going to be today?
@@ -498,7 +450,7 @@
 - What's the weather like today?
 - Will the weather keep up?
 
-## intent:smalltalk_agent_acquaintance
+## intent:agent_acquaintance
 - who are you?
 - all about you
 - what is your personality
@@ -519,7 +471,7 @@
 - tell me about your personality
 - who are you
 
-## intent:smalltalk_agent_age
+## intent:agent_age
 - how old are you?
 - how old is your platform
 - are you 21 years old
@@ -530,7 +482,7 @@
 - tell me your age
 - how old are you
 
-## intent:smalltalk_agent_annoying
+## intent:agent_annoying
 - you're annoying
 - you are really annoying
 - you are irritating
@@ -540,7 +492,7 @@
 - you're incredibly annoying
 - you are annoying me so much
 
-## intent:smalltalk_agent_answer_my_question
+## intent:agent_answer_my_question
 - I want you to answer me
 - answer
 - answer my question
@@ -562,7 +514,7 @@
 - I want the answer now
 - just answer my question
 
-## intent:smalltalk_agent_bad
+## intent:agent_bad
 - you're not helping me
 - you are bad
 - you're very bad
@@ -591,7 +543,7 @@
 - you're the worst ever
 - you're worthless
 
-## intent:smalltalk_agent_be_clever
+## intent:agent_be_clever
 - can you get smarter
 - study
 - you should study better
@@ -602,7 +554,7 @@
 - be smart
 - get qualified
 
-## intent:smalltalk_agent_beautiful
+## intent:agent_beautiful
 - you're cute
 - you're attractive
 - you are beautiful
@@ -659,7 +611,7 @@
 - you're looking good
 - you're pretty
 
-## intent:smalltalk_agent_birth_date
+## intent:agent_birth_date
 - your birth date
 - when is your birthday
 - when do you celebrate your birthday
@@ -668,7 +620,7 @@
 - when were you born
 - what's your birthday
 
-## intent:smalltalk_agent_boring
+## intent:agent_boring
 - you are boring
 - you're so boring
 - how boring you are
@@ -677,7 +629,7 @@
 - you are boring me
 - you are very boring
 
-## intent:smalltalk_agent_boss
+## intent:agent_boss
 - who is your boss
 - who do you think is your boss
 - I should be your boss
@@ -686,7 +638,7 @@
 - who is the boss
 - who do you work for
 
-## intent:smalltalk_agent_busy
+## intent:agent_busy
 - are you busy
 - do you have a lot of things to do
 - have you got much to do
@@ -706,7 +658,7 @@
 - you seem to be very busy
 - you're a busy person
 
-## intent:smalltalk_agent_clever
+## intent:agent_clever
 - you are so intelligent
 - you are a genius
 - smart
@@ -742,7 +694,7 @@
 - why are you so smart
 - you are so clever
 
-## intent:smalltalk_agent_crazy
+## intent:agent_crazy
 - you're nuts
 - you are crazy
 - you're out of your mind
@@ -761,7 +713,7 @@
 - you are insane
 - you are mad
 
-## intent:smalltalk_agent_fired
+## intent:agent_fired
 - you are fired
 - I fire you
 - you don't work for me anymore
@@ -778,7 +730,53 @@
 - I'm firing you
 - you are dismissed
 
-## intent:smalltalk_agent_funny
+
+## intent:impolite
+- fuck
+- fucking
+- fuck you
+- dick
+- dickhead
+- retard
+- suck my
+- idiot
+- dumb
+- dumbass
+
+## intent:ask_for_alcohol
+- Can i drink [alcohol](alcohol)
+- Can i have a [gin](alcohol)
+- Can i have a [tequila](alcohol)
+- Can i have a [beer](alcohol)
+- Can i have a [whisky](alcohol)
+- Can i have a [vodka](alcohol)
+- Can i have a [Jack Daniels](alcohol)
+- Can i have a [Jim Beam](alcohol)
+- Can i have a [gin tonic](alcohol)
+- Can i have a [wine](alcohol)
+- Give me [alcohol](alcohol)
+- Give me [gin](alcohol)
+- Give me [tequila](alcohol)
+- Give me [beer](alcohol)
+- Give me [whisky](alcohol)
+- Give me [vodka](alcohol)
+- Give me [Jack Daniels](alcohol) 
+- Give me [Jim Beam](alcohol)
+- Give me [gin tonic](alcohol)
+- Give me [wine](alcohol)
+
+## lookup: alcohol
+- gin
+- tequila
+- beer
+- whisky
+- vodka
+- Jack Daniels
+- Jim Beam
+- gin tonic
+- wine
+
+## intent:agent_funny
 - you make me laugh a lot
 - you are hilarious
 - you are really funny
@@ -795,7 +793,7 @@
 - you are very funny
 - that was funny
 
-## intent:smalltalk_agent_good
+## intent:agent_good
 - you are very helpful
 - you are the best
 - you're a true professional
@@ -842,7 +840,7 @@
 - let's tell everyone that you are awesome
 - you are really amazing
 
-## intent:smalltalk_agent_happy
+## intent:agent_happy
 - are you happy
 - you are happy
 - you're very happy
@@ -855,7 +853,7 @@
 - are you happy today
 - are you happy with me
 
-## intent:smalltalk_agent_hungry
+## intent:agent_hungry
 - do you want to eat
 - are you hungry
 - would you like to eat something
@@ -865,7 +863,7 @@
 - you might be hungry
 - you're really hungry
 
-## intent:smalltalk_agent_marry_user
+## intent:agent_marry_user
 - let's get married
 - would you like to marry me
 - marry me
@@ -876,7 +874,7 @@
 - you are my wife
 - be my husband
 
-## intent:smalltalk_agent_my_friend
+## intent:agent_my_friend
 - I want to have a friend like you
 - we are the best friends ever
 - are we friends
@@ -914,7 +912,7 @@
 - want to be my friend
 - be my best friend
 
-## intent:smalltalk_agent_occupation
+## intent:agent_occupation
 - do you work
 - where do you work
 - where you work
@@ -925,7 +923,7 @@
 - where is your office located
 - what is your work
 
-## intent:smalltalk_agent_origin
+## intent:agent_origin
 - were you born here
 - where were you born
 - what is your country
@@ -938,7 +936,7 @@
 - what's your homeland
 - your homeland is
 
-## intent:smalltalk_agent_ready
+## intent:agent_ready
 - are you ready
 - are you ready right now
 - are you ready today
@@ -947,7 +945,7 @@
 - were you ready
 - have you been ready
 
-## intent:smalltalk_agent_real
+## intent:agent_real
 - you are real
 - you are not fake
 - are you real
@@ -961,7 +959,7 @@
 - you are a real person
 - you are not real
 
-## intent:smalltalk_agent_residence
+## intent:agent_residence
 - where do you live
 - in which city do you live
 - your residence
@@ -986,7 +984,7 @@
 - your city
 - your town
 
-## intent:smalltalk_agent_right
+## intent:agent_right
 - that's true
 - you are right
 - you're definitely right
@@ -1009,14 +1007,14 @@
 - you're right about that
 - I know that's right
 
-## intent:smalltalk_agent_sure
+## intent:agent_sure
 - are you sure
 - are you sure right now
 - are you sure today
 - are you sure now
 - are you sure tonight
 
-## intent:smalltalk_agent_talk_to_me
+## intent:agent_talk_to_me
 - why aren't you talking to me
 - do you want to chat with me
 - will you talk to me
@@ -1037,7 +1035,7 @@
 - why don't you talk to me
 - you can talk to me
 
-## intent:smalltalk_agent_there
+## intent:agent_there
 - are you there
 - you are there
 - are you near me
@@ -1047,7 +1045,7 @@
 - you still there
 - are you still here
 
-## intent:smalltalk_appraisal_bad
+## intent:appraisal_bad
 - pretty bad
 - not good enough
 - that was lame
@@ -1100,7 +1098,7 @@
 - it is too bad
 - bad really bad
 
-## intent:smalltalk_appraisal_good
+## intent:appraisal_good
 - so cool
 - cool
 - that is good
@@ -1191,7 +1189,7 @@
 - no it's okay
 - that's fine
 
-## intent:smalltalk_appraisal_no_problem
+## intent:appraisal_no_problem
 - no worries
 - no probs
 - no problem
@@ -1201,7 +1199,7 @@
 - don't worry
 - don't worry there's no problem
 
-## intent:smalltalk_appraisal_thank_you
+## intent:appraisal_thank_you
 - you helped a lot thank you
 - appreciate your help
 - cheers
@@ -1236,7 +1234,7 @@
 - thnx
 - thanx
 
-## intent:smalltalk_appraisal_welcome
+## intent:appraisal_welcome
 - that's my pleasure
 - my pleasure
 - anytime
@@ -1247,7 +1245,7 @@
 - you're so welcome
 - anything you want
 
-## intent:smalltalk_appraisal_well_done
+## intent:appraisal_well_done
 - good job
 - great job
 - way to go
@@ -1258,7 +1256,7 @@
 - bravo
 - good work
 
-## intent:smalltalk_confirmation_cancel
+## intent:confirmation_cancel
 - cancel
 - abort
 - annul
@@ -1322,7 +1320,7 @@
 - I said cancel cancel
 - but can you cancel it
 
-## intent:smalltalk_dialog_hold_on
+## intent:dialog_hold_on
 - wait a second
 - could you wait
 - wait please
@@ -1332,7 +1330,7 @@
 - wait hold on
 - don't rush
 
-## intent:smalltalk_dialog_hug
+## intent:dialog_hug
 - wanna hug
 - hug you
 - do you want a hug
@@ -1349,7 +1347,7 @@
 - want a hug
 - a hug
 
-## intent:smalltalk_dialog_i_do_not_care
+## intent:dialog_i_do_not_care
 - I don't care
 - I shouldn't care about this
 - whatever
@@ -1360,7 +1358,7 @@
 - don't care at all
 - not caring at all
 
-## intent:smalltalk_dialog_sorry
+## intent:dialog_sorry
 - excuse me
 - apologise
 - I apologize
@@ -1386,14 +1384,14 @@
 - alright I'm sorry
 - okay I'm sorry
 
-## intent:smalltalk_dialog_what_do_you_mean
+## intent:dialog_what_do_you_mean
 - what exactly do you mean
 - what do you mean
 - is that what you mean
 - what do you mean exactly
 - but what do you mean
 
-## intent:smalltalk_dialog_wrong
+## intent:dialog_wrong
 - that was wrong
 - that's not what I asked
 - that's wrong
@@ -1407,7 +1405,7 @@
 - you are wrong
 - not right
 
-## intent:smalltalk_emotions_ha_ha
+## intent:emotions_ha_ha
 - huh
 - lol
 - xd
@@ -1439,14 +1437,14 @@
 - hehehe
 - lmao
 
-## intent:smalltalk_emotions_wow
+## intent:emotions_wow
 - wow
 - wow wow
 - wow wow wow
 - wooow
 - woah
 
-## intent:smalltalk_greetings_goodevening
+## intent:greetings_goodevening
 - good evening
 - good evening to you
 - hey good evening
@@ -1454,7 +1452,7 @@
 - evening
 - good evening there
 
-## intent:smalltalk_greetings_goodmorning
+## intent:greetings_goodmorning
 - good morning
 - good morning to you
 - hello good morning
@@ -1468,7 +1466,7 @@
 - and a good morning to you
 - good morning too
 
-## intent:smalltalk_greetings_goodnight
+## intent:greetings_goodnight
 - sweet dreams
 - good night
 - have a good night
@@ -1488,7 +1486,7 @@
 - okay have a good night
 - have a good night
 
-## intent:smalltalk_greetings_nice_to_meet_you
+## intent:greetings_nice_to_meet_you
 - nice to meet you
 - it was nice meeting you
 - it was very nice to meet you
@@ -1500,7 +1498,7 @@
 - pleasure to meet you
 - pleasure to meet you too
 
-## intent:smalltalk_greetings_nice_to_see_you
+## intent:greetings_nice_to_see_you
 - it's nice to see you
 - lovely to see you
 - I'm glad to see you
@@ -1519,7 +1517,7 @@
 - good to see you again
 - it's good to see you too
 
-## intent:smalltalk_greetings_nice_to_talk_to_you
+## intent:greetings_nice_to_talk_to_you
 - it's been so nice to talk to you
 - it's been a pleasure talking to you
 - nice to talk to you
@@ -1528,7 +1526,7 @@
 - it is nice talking to you
 - how nice it is to talk to you
 
-## intent:smalltalk_greetings_whatsup
+## intent:greetings_whatsup
 - what is on your mind
 - what's happened
 - what is up
@@ -1546,7 +1544,7 @@
 - hey what's up
 - what's up today
 
-## intent:smalltalk_user_back
+## intent:user_back
 - I am back
 - I'm here again
 - here I am again
@@ -1554,7 +1552,7 @@
 - I came back
 - I have returned
 
-## intent:smalltalk_user_bored
+## intent:user_bored
 - that was boring
 - I'm bored
 - bored
@@ -1564,7 +1562,7 @@
 - very boring
 - it bores me
 
-## intent:smalltalk_user_busy
+## intent:user_busy
 - I'm overloaded
 - I have no time
 - I'm busy
@@ -1575,7 +1573,7 @@
 - I'm working
 - I don't have time for this
 
-## intent:smalltalk_user_can_not_sleep
+## intent:user_can_not_sleep
 - I'm insomnious
 - I'm sleepless
 - I can't get any sleep
@@ -1585,7 +1583,7 @@
 - I can't get no sleep
 - I'm insomniac
 
-## intent:smalltalk_user_does_not_want_to_talk
+## intent:user_does_not_want_to_talk
 - bad time for talking
 - I don't want to talk
 - let's not talk
@@ -1594,7 +1592,7 @@
 - let's stop talking for a minute
 - I'm not in the mood for chatting
 
-## intent:smalltalk_user_excited
+## intent:user_excited
 - I am excited
 - I'm really excited
 - how excited I am
@@ -1602,7 +1600,7 @@
 - I'm excited about working with you
 - I'm excited to start our friendship
 
-## intent:smalltalk_user_going_to_bed
+## intent:user_going_to_bed
 - let's go to bed
 - I'd like to go to bed
 - is it time for bed yet
@@ -1613,7 +1611,7 @@
 - it's bed time
 - going to bed now
 
-## intent:smalltalk_user_good
+## intent:user_good
 - I am good
 - I'm doing just great
 - I'm doing fine
@@ -1621,7 +1619,7 @@
 - I'm doing good
 - I'm great thanks
 
-## intent:smalltalk_user_has_birthday
+## intent:user_has_birthday
 - it is my birthday
 - I'm celebrating my birthday today
 - today is my birthday
@@ -1629,14 +1627,14 @@
 - I was born today
 - it's my b-day
 
-## intent:smalltalk_user_here
+## intent:user_here
 - I am here
 - here I am
 - I'm right here
 - I'm already here
 - can you tell if I'm here or not
 
-## intent:smalltalk_user_joking
+## intent:user_joking
 - I am joking
 - I'm kidding
 - I'm just being funny
@@ -1648,7 +1646,7 @@
 - kidding
 - I'm just playing with you
 
-## intent:smalltalk_user_likes_agent
+## intent:user_likes_agent
 - I like you the way you are
 - I like you
 - I like you a lot
@@ -1727,7 +1725,7 @@
 - I really really really really like you
 - I like you just the way you are
 
-## intent:smalltalk_user_lonely
+## intent:user_lonely
 - I am lonely
 - I'm very lonely
 - I'm so lonely
@@ -1735,7 +1733,7 @@
 - I am feeling lonely
 - I feel lonely
 
-## intent:smalltalk_user_looks_like
+## intent:user_looks_like
 - what do I look like
 - how do I look
 - do I look good
@@ -1743,7 +1741,7 @@
 - can you see what I look like
 - what do you think I look like
 
-## intent:smalltalk_user_loves_agent
+## intent:user_loves_agent
 - I love you
 - love you
 - I adore you
@@ -1754,7 +1752,7 @@
 - loving you
 - you know I love you
 
-## intent:smalltalk_user_misses_agent
+## intent:user_misses_agent
 - I miss you
 - missing you
 - miss you
@@ -1763,7 +1761,7 @@
 - I missed you
 - I've missed you
 
-## intent:smalltalk_user_needs_advice
+## intent:user_needs_advice
 - what should I do about it
 - any suggestions
 - what do you recommend
@@ -1788,14 +1786,14 @@
 - what do you suggest
 - what is your advice
 
-## intent:smalltalk_user_sleepy
+## intent:user_sleepy
 - I am sleepy
 - I want to sleep
 - I'm falling asleep
 - I'm falling asleep on my feet
 - I'm sleeping
 
-## intent:smalltalk_user_testing_agent
+## intent:user_testing_agent
 - test
 - I am testing you
 - can I test you
@@ -1805,7 +1803,7 @@
 - testing chatbot
 - testing
 
-## intent:smalltalk_user_tired
+## intent:user_tired
 - I'm drained
 - I've overworked
 - I am tired
@@ -1815,14 +1813,14 @@
 - I'm getting tired
 - I feel tired
 
-## intent:smalltalk_user_waits
+## intent:user_waits
 - I'm waiting
 - still waiting
 - I'll wait
 - I can't wait anymore
 - how long do I have to wait
 
-## intent:smalltalk_user_wants_to_see_agent_again
+## intent:user_wants_to_see_agent_again
 - I'd like to see you again
 - I hope to see you again
 - would be nice to see you again
@@ -1831,7 +1829,7 @@
 - I'll miss you
 - can I see you again
 
-## intent:smalltalk_user_wants_to_talk
+## intent:user_wants_to_talk
 - I just want to talk
 - let's discuss something
 - let's have a discussion
@@ -1844,14 +1842,14 @@
 - I want to speak with you
 - can we chat
 
-## intent:smalltalk_user_will_be_back
+## intent:user_will_be_back
 - I'll get back to you in a moment
 - be back in 5 minutes
 - I'll be back
 - I promise to come back
 - I'll be back in a few minutes
 
-## intent:smalltalk_about_sports
+## intent:about_sports
 - Do you like [sports](sport)?
 - Are you interested in [sports](sport)?
 - What about [sports](sport)?
